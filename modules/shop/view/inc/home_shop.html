@@ -1,0 +1,50 @@
+<meta charset="utf-8">
+<title>Concesionario</title>
+
+<head>
+	<!-- MAPBOX -->
+	<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+	<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<link href="modules/shop/view/css/css_general.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="modules/shop/view/css/bootstrap.css">
+<link rel="stylesheet" href="modules/shop/view/css/style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script>
+
+<!-- Pagination -->
+<script type="text/javascript" src="http://botmonster.com/jquery-bootpag/jquery.bootpag.js"></script>
+
+<script src="view/js/translate.js"></script>
+<script src="modules/shop/model/crtl_shop.js"></script>
+<script src="modules/car/model/valid_car.js"></script>
+<script src="view/js/promise.js"></script>
+
+<body>
+	<div class="wrap" style="display: inline-flex; width: 100%;">
+		<div class="div-filters">
+			<div class="highlight"></div>
+			<div class="filters"></div>
+		</div>
+		<div class="image group" id="containerShop" style="display: block; width: 700px;">
+			<div class="slider">
+				<div class="slider-wrapper theme-default">
+					<div id="slider" class="nivoSlider">
+					</div>
+					<script
+						src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nivoslider/3.2/jquery.nivo.slider.pack.min.js"></script>
+				</div>
+			</div>
+		</div>
+		<div id="div-map">
+			<div id="map"></div>
+		</div>
+	</div>
+	<div id="pagination"></div>
+</body>

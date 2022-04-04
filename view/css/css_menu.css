@@ -1,0 +1,41 @@
+/* a:link {
+    text-decoration:none;
+}
+
+#boton_menu {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    margin-left: 45em;
+}
+
+#boton_menu:hover {
+    background-color: #6cca6f;
+    color: white;
+}
+
+img{
+    display: block;
+    margin-left: 15em;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 10em;
+    width: 50em;
+    height: auto;
+}
+
+html{
+    background-color: rgb(245, 225, 199);
+}
+
+p{
+    display: block;
+    margin-left: 30em;
+    margin-right: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-radius: 10em;
+    width: 50em;
+    height: auto;
+} */
