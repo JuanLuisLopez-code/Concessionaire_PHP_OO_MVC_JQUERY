@@ -486,6 +486,7 @@ function shop() {
     $(document).on('click', '.shop', function() {
         window.location.href = "index.php?modules=shop&op=list";
         localStorage.removeItem('details')
+        localStorage.removeItem('move');
     });
 }
 
