@@ -1,5 +1,5 @@
 <?php
-$path = $_SERVER['DOCUMENT_ROOT'] . '/framework_php';
+$path = $_SERVER['DOCUMENT_ROOT'] . '/framework_php_GitHub';
 include($path . "/modules/shop/model/DAO_shop.php");
 if (isset($_SESSION["tiempo"])) {  
     $_SESSION["tiempo"] = time(); //Devuelve la fecha actual

@@ -1,5 +1,5 @@
 <?php
-  $path = $_SERVER['DOCUMENT_ROOT'] . '/framework_php';
+  $path = $_SERVER['DOCUMENT_ROOT'] . '/framework_php_GitHub';
   include($path . "/model/connect.php");
   
 //include_once("model/connect.php");
